@@ -120,6 +120,7 @@ def shortest_path(source:str, target:str):
     except Exception:
         return None
 
+
 def person_id_for_name(name):
     """
     Returns the IMDB id for a person's name,
@@ -155,8 +156,7 @@ def neighbors_for_person(person_id):
     neighbors = set()
     for movie_id in movie_ids:
         for person in movies[movie_id]["stars"]:
-            # if person_id != person:
-                neighbors.add((movie_id, person))
+            neighbors.add((movie_id, person))
     return neighbors
 
 

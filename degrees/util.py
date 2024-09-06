@@ -1,5 +1,6 @@
 from collections import deque
 
+
 class Node():
     def __init__(self, state, parent, action):
         self.state = state
