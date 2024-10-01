@@ -51,3 +51,15 @@
         - enumerate all possible models
         - if in every model, the knowledge base is true and alpha is true, then the
           knowledge base entails alpha
+    2. `inference by resolution`
+        - proof by contradiction
+        - assume that the knowledge base and not alpha is true.
+        - convert it to conjuctive normal form and see if you can use resolution to produce a new clause
+            - if empty clause then contradiction
+            - otherwise knowledge base does not entail alpha
+
+- `inference rules`: given a premise, a conclusion can be made
+    1. `And elimination`: if alpha and beta are true --> alpha is true (beta is true)
+    2. `Double negation elimination`: if not not alpha --> alpha
+    3. `Implication elimination`: if alpha then beta --> not alpha or beta
+    4.  `Biconditional elimination`: alpha iff beta --> if alpha then beta AND if beta then alpha
