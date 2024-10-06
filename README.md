@@ -63,3 +63,11 @@
     2. `Double negation elimination`: if not not alpha --> alpha
     3. `Implication elimination`: if alpha then beta --> not alpha or beta
     4.  `Biconditional elimination`: alpha iff beta --> if alpha then beta AND if beta then alpha
+
+## 3. Uncertainty
+- `Bayesian Network`: 
+    - directed graph to show the dependence of random variables
+    - each node will have the probability of node happening given the parent's probability
+- when given the probability of (a given b), you can get the probability of (b given a)
+- `markov chain`:
+    - sequence of events where probability of each event is dependet on the previous event
