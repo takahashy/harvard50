@@ -71,3 +71,12 @@
 - when given the probability of (a given b), you can get the probability of (b given a)
 - `markov chain`:
     - sequence of events where probability of each event is dependet on the previous event
+
+## 4. Optimization
+- `local search`: minimize or maximize by comparing the current node to the neighboring nodes
+    - `hill climbing algorithm`: greedy algorithm and not might produce the max or min
+    - `simulated annealing algorithm`: early on make more "worse" moves but later on make less "worse" moves
+- `linear programming`: function to optimize and the constraint can be written as a linear equation 
+- `constraint satisfaction`: represent the constraint as a graph and make the graph
+    1. `node consistent`: satisfy the unary constraint for that node
+    2. `arc consistent`: satisfy the binary constraint for the nodes that are connected by an edge
