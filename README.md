@@ -80,3 +80,7 @@
 - `constraint satisfaction`: represent the constraint as a graph and make the graph
     1. `node consistent`: satisfy the unary constraint for that node
     2. `arc consistent`: satisfy the binary constraint for the nodes that are connected by an edge
+
+## 5. Neural Networks
+![Neural Networks](images/IMG_0547.jpeg)
+![Neural Networks](images/IMG_0548.jpeg)
